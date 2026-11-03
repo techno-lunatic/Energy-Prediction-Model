@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+# Keep the supplied dataset in the local ZIP, but do not commit raw data to Git.
+data/*.csv
+# Generated model and result artifacts can be recreated by running training.
+models/*.joblib
+models/metadata.json
+results/*.csv
+results/plots/*.png
